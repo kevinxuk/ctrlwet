@@ -3,206 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>学习空白格的健康饮食习惯 - Learn from Blankge's Healthy Eating Habits</title>
+    <title>空白格的规律习惯 - 低卡学习版</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="hero">
+    <header class="simple-header">
         <div class="container">
-            <h1>🍜 学习空白格的健康饮食习惯</h1>
-            <p class="subtitle">基于小红书用户 631646278 的真实饮食记录 - 学习她的规律与自律</p>
-            <div class="meta">
-                <span class="badge">📊 数据来源: 22天饮食记录</span>
-                <span class="badge">🎯 目标: 学习她的饮食节奏，建立健康习惯</span>
-                <span class="badge">💡 原则: 保持习惯 + 适度改良</span>
-            </div>
+            <h1>学习空白格的饮食规律</h1>
+            <p class="subtitle">每日目标: <span class="cal-goal">&lt;800 kcal</span></p>
         </div>
     </header>
 
     <main class="container">
-        <!-- 用户简介 -->
-        <section class="profile-section">
-            <h2>👤 关于她</h2>
-            <div class="profile-grid">
-                <div class="profile-item">
-                    <strong>昵称</strong>
-                    <span>空白格</span>
-                </div>
-                <div class="profile-item">
-                    <strong>小红书号</strong>
-                    <span>631646278</span>
-                </div>
-                <div class="profile-item">
-                    <strong>身高/体重</strong>
-                    <span>173cm / 41kg (82斤)</span>
-                </div>
-                <div class="profile-item">
-                    <strong>BMI</strong>
-                    <span class="warning">13.7 (严重偏瘦)</span>
-                </div>
-                <div class="profile-item">
-                    <strong>地区</strong>
-                    <span>河北</span>
-                </div>
-                <div class="profile-item">
-                    <strong>核心问题</strong>
-                    <span>胃不好 + 低食欲 + 外食依赖</span>
-                </div>
-            </div>
-            <blockquote>
-                "胃不好，低食欲日常记录，每天按时吃饭，基本都是外食。没有特殊说明的食物就是都吃完啦。"
-            </blockquote>
-        </section>
-
         <!-- 数据洞察 -->
-        <section class="insights-section">
-            <h2>📈 数据洞察</h2>
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-value">20 天</div>
-                    <div class="stat-label">有效记录</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">60 餐</div>
-                    <div class="stat-label">总餐次</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">3.0</div>
-                    <div class="stat-label">餐/天</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">1210</div>
-                    <div class="stat-label">平均步数/天</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">2035</div>
-                    <div class="stat-label">平均饮水/ml</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">600-800</div>
-                    <div class="stat-label">估计热量/kcal (偏低)</div>
-                </div>
-            </div>
-
-            <div class="insight-box">
-                <h3>🔍 核心发现</h3>
-                <ul>
-                    <li><strong>进食节奏</strong>: 每天3餐，时间规律（早餐~8:05，午餐~11:54，晚餐~18:25）</li>
-                    <li><strong>食物偏好</strong>: 轻食饮品（奶茶/咖啡）+ 小份主食 + 少量蛋白质</li>
-                    <li><strong>分量特征</strong>: 普遍偏少（半份、少量、1-2个）</li>
-                    <li><strong>营养问题</strong>: 总热量严重不足（约600-800 kcal/天，正常需1800+）</li>
-                    <li><strong>外食依赖</strong>: 馄饨、汉堡、披萨、牛肉汤等快餐为主</li>
-                    <li><strong>高频食物</strong>: 轻轻茉莉(9次)、牛奶(6次)、美式(4次)、鸡蛋、牛肉、虾</li>
-                </ul>
+        <section class="insights">
+            <h2>📊 她的习惯（22天记录）</h2>
+            <div class="mini-stats">
+                <div>🕐 规律三餐: 8:00 / 12:00 / 18:30</div>
+                <div>🥤 饮品: 奶茶/咖啡（多糖少）</div>
+                <div>🥢 分量: 普遍偏少</div>
+                <div>🚶 步数: 平均 1210 步</div>
+                <div>💧 饮水: 2035 ml</div>
             </div>
         </section>
 
-        <!-- 完整记录表格 -->
-        <section class="records-section">
-            <h2>📋 完整饮食记录</h2>
-            <div class="table-controls">
-                <button onclick="showAll()">显示全部</button>
-                <button onclick="showRecent()">最近10天</button>
+        <!-- 低卡食谱 -->
+        <section class="recipe">
+            <h2>📝 低卡版食谱（&lt;800 kcal/天）</h2>
+            <div class="cal-notice">
+                ⚠️ 热量严格控制在 700-800 kcal，保持她习惯的时间和小份心理
             </div>
-            <div class="table-wrapper">
-                <table id="diet-table">
-                    <thead>
-                        <tr>
-                            <th>日期</th>
-                            <th>早餐</th>
-                            <th>午餐</th>
-                            <th>晚餐</th>
-                            <th>步数</th>
-                            <th>饮水</th>
-                        </tr>
-                    </thead>
-                    <tbody id="table-body">
-                        <!-- 数据将由 JS 填充 -->
-                    </tbody>
+
+            <div class="menu-grid" id="menu-grid">
+                <!-- JS 生成 -->
+            </div>
+
+            <div class="target-table">
+                <h3>每日热量分配</h3>
+                <table>
+                    <tr><td>早餐</td><td>200 kcal</td></tr>
+                    <tr><td>午餐</td><td>300 kcal</td></tr>
+                    <tr><td>晚餐</td><td>250 kcal</td></tr>
+                    <tr><td><strong>总计</strong></td><td><strong>&lt;800 kcal</strong></td></tr>
                 </table>
             </div>
         </section>
 
-        <!-- 定制食谱 -->
-        <section class="recipe-section">
-            <h2>📝 定制增重养胃食谱</h2>
-            <div class="recipe-intro">
-                <h3>🎯 设计原则</h3>
-                <ol>
-                    <li>保持她习惯的时间节奏（7:30-9:00, 11:30-12:30, 18:00-19:30）</li>
-                    <li>使用她熟悉的食物（粥、汤、蒸蛋、小份主食）</li>
-                    <li>分量适度增加但保持"小份量"心理感受</li>
-                    <li>加入高营养密度食物（减肥需控制热量）</li>
-                    <li>所有食谱外食友好/简单自制</li>
-                </ol>
-
-                <h3>📊 营养目标</h3>
-                <div class="goals-grid">
-                    <div class="goal-item">热量: 1200-1500 kcal/天 (减肥)</div>
-                    <div class="goal-item">蛋白质: 40-50g/天</div>
-                    <div class="goal-item">饮水: 2000-2500 ml</div>
-                    <div class="goal-item">加餐: 每天1-2次</div>
-                </div>
-            </div>
-
-            <div class="weekly-menu" id="weekly-menu">
-                <!-- 食谱将由 JS 渲染 -->
-            </div>
-
-            <div class="tips-section">
-                <h3>💡 实施建议</h3>
-                <ul class="tips-list">
-                    <li><strong>渐进增加</strong>: 第一周只增加1次加餐，第二周增加主食分量</li>
-                    <li><strong>感受优先</strong>: 记录胃部感受，不舒服则调整食物</li>
-                    <li><strong>外食技巧</strong>: 要求"少油少盐"，肉类去皮，蔬菜多要</li>
-                    <li><strong>加餐选择</strong>: 牛奶、酸奶、坚果、水果、蛋白粉</li>
-                    <li><strong>烹饪方式</strong>: 蒸、煮、炖、拌为主，避免油炸、辛辣</li>
-                    <li><strong>饮水</strong>: 少量多次，不要一次大量</li>
-                    <li><strong>运动</strong>: 步数从1200增加到3000-5000步/天</li>
-                    <li><strong>记录</strong>: 继续记录饮食、体重、感受，每2周评估一次</li>
-                </ul>
-
-                <h3>🎯 预期进展</h3>
-                <ul class="timeline">
-                    <li><strong>第1个月</strong>: 适应期，体重可能不变或微增（<0.5kg）</li>
-                    <li><strong>第2-3个月</strong>: 稳定增重 0.5-1kg/月，目标达到 45-48kg</li>
-                    <li><strong>第4-6个月</strong>: 达到 50kg (BMI ~16.7)，基本脱离偏瘦范围</li>
-                    <li><strong>长期维持</strong>: 50-52kg，食欲改善，胃功能恢复</li>
-                </ul>
-            </div>
-        </section>
-
         <!-- 购物清单 -->
-        <section class="shopping-section">
-            <h2>🛒 购物清单（一周用量）</h2>
-            <p class="section-desc">基于一周食谱汇总的食材清单，可直接用于采购。</p>
-            <div id="shopping-list">
-                <!-- 由 JS 填充 -->
-            </div>
+        <section class="shopping">
+            <h2>🛒 购物清单（一周）</h2>
+            <div id="shopping-list"></div>
         </section>
 
-        <!-- 致谢 -->
-        <section class="thanks-section">
-            <h2>💝 致谢 & 说明</h2>
-            <p>这份食谱基于<strong>空白格</strong>（小红书ID: 631646278）22天的真实饮食记录生成。</p>
-            <p><strong>初衷</strong>: 学习她<strong>规律的三餐时间、记录习惯、外食选择</strong>，并调整为适合控制体重的版本。</p>
-            <p><strong>核心借鉴</strong>:</p>
+        <!-- 注意事项 -->
+        <section class="notes">
+            <h2>⚠️ 重要提醒</h2>
             <ul>
-                <li>⏰ 固定的用餐时间（8:00-9:00, 12:00-13:00, 18:00-19:00）</li>
-                <li>📝 每日记录饮食、步数、饮水</li>
-                <li>🥗 选择清淡易消化的食物（粥、蒸蛋、汤）</li>
-                <li>🍵 用茶饮/咖啡代替高糖饮料</li>
-                <li>🥢 控制分量，"小份量"心理</li>
+                <li>800 kcal 是极低热量饮食，<strong>不建议长期执行</strong></li>
+                <li>适合短期（1-2周）快速减重，之后需逐步增加热量</li>
+                <li>每天补充复合维生素片</li>
+                <li>如有头晕、乏力、脱发等不适，立即停止</li>
+                <li>建议咨询医生或营养师后再实施</li>
+                <li>她的原习惯是<strong>热量不足</strong>，减肥的关键是<strong>控制外食+加运动</strong></li>
             </ul>
-            <p class="signature">—— 整理于 2026-03-18</p>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <p>© 2026 空白格增重计划 | 数据来源: 小红书 | 食谱定制: OpenClaw Agent</p>
-            <p class="disclaimer">本食谱仅供参考，实际实施请咨询专业营养师或医生</p>
+            <p>数据来源: 小红书用户 631646278 | 生成时间: 2026-03-18</p>
         </div>
     </footer>
 
